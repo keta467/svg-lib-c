@@ -3,11 +3,19 @@
   "version": "1.0.24",
   "description": "",
   "main": "lib.js",
-  "unpkg": "lib.js",
+  "unpkg": "dist/bundle.js",
   "author": "Kenta Irie",
   "license": "ISC",
-  "type": "module",
   "scripts": {
+    "build": "webpack",
     "release": "git add . && git commit -m \"message\" && git push && npm version patch && npm publish"
+  },
+  "dependencies": {
+    "@babel/core": "^7.18.9",
+    "babel-loader": "^8.2.5",
+    "svg-lib-c": "^1.0.21",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
   }
 }
