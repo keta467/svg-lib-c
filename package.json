@@ -1,6 +1,6 @@
 {
   "name": "svg-lib-c",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "description": "",
   "main": "lib.js",
   "unpkg": "lib.js",
