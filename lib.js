@@ -10,6 +10,6 @@
 
 // export { BaseTag, RectTag, SvgTag, CircleTag, GroupTag, ImageTag, TextTag };
 
-export function myFunction() {
+function myFunction() {
   console.log("Hello from my-library!");
 }
