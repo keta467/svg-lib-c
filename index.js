@@ -1,5 +1,5 @@
 export default class TestClass {
   sayHello() {
-    console.log("hello!!!!!変更");
+    console.log("hello!!!!!変更2");
   }
 }
