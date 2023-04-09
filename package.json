@@ -3,7 +3,6 @@
   "version": "1.0.6",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "author": "Kenta Irie",
   "license": "ISC",
   "scripts": {
