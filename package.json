@@ -3,6 +3,7 @@
   "version": "1.0.21",
   "description": "",
   "main": "lib.js",
+  "unpkg": "lib.js",
   "author": "Kenta Irie",
   "license": "ISC",
   "type": "module",
