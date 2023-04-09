@@ -1,14 +1,4 @@
-export class TestClass {
-  sayHello() {
-    console.log("hello!!!!!変更2");
-  }
-}
-
-export class RectTag {
-  getScript() {
-    return "aiueo";
-  }
-}
+import { RectTag } from "./lib.js";
 
 //これ単体で動くアプリをつくりたいが、、
-document.getElementById("root").innerHTML += "dddddd";
+document.getElementById("root").innerHTML += new RectTag().getScript();
