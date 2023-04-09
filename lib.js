@@ -1,3 +1,11 @@
-import { BaseTag, RectTag } from "./basetag.js";
+import {
+  BaseTag,
+  CircleTag,
+  GroupTag,
+  ImageTag,
+  RectTag,
+  SvgTag,
+  TextTag,
+} from "./basetag.js";
 
-export { BaseTag, RectTag };
+export { BaseTag, RectTag, SvgTag, CircleTag, GroupTag, ImageTag, TextTag };
