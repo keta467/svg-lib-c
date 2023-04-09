@@ -2,7 +2,7 @@
   "name": "svg-lib-c",
   "version": "1.0.26",
   "description": "",
-  "main": "lib.js",
+  "main": "dist/bundle.js",
   "unpkg": "dist/bundle.js",
   "author": "Kenta Irie",
   "license": "ISC",
