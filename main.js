@@ -11,4 +11,4 @@ export class RectTag {
 }
 
 //これ単体で動くアプリをつくりたいが、、
-// document.getElementById("root").innerHTML += "dddddd";
+document.getElementById("root").innerHTML += "dddddd";
