@@ -5,5 +5,8 @@
   "main": "index.js",
   "type": "module",
   "author": "Kenta Irie",
-  "license": "ISC"
+  "license": "ISC",
+  "scripts": {
+    "release": "git add . && git commit -m \"message\" && git push && npm version patch && npm publish"
+  }
 }
